@@ -174,21 +174,18 @@ $(document).ready(function() {
 
         $( ".field" ).text(""); 
 
-        for (key in clickCounter){
+        for (key in clickCounter)
             clickCounter[key] = 0;
-        }
 
         $("html, body").animate({scrollTop: 115}, 1000);
         $("#XWins, #OWins").slideUp();
         $(".playAgain, #winning").fadeOut(1000);
 
-        if(lastWin === 1 || lastWin === -1){
+        if(lastWin === 1 || lastWin === -1)
             turnCounter = lastWin*(-1);
-        }
 
-        if(lastWin === 0){
+        if(lastWin === 0)
             turnCounter = -1;
-        }
 
         lastWin = 0;
         fieldCounter = 0; 
@@ -203,9 +200,8 @@ $(document).ready(function() {
 
         $( ".field, #XPick, #OPick" ).text("");
 
-        for (key in clickCounter){
+        for (key in clickCounter)
             clickCounter[key] = 0;
-        }
 
         $("#XWins, #OWins").slideUp();
         $(".playAgain, #winning").fadeOut(1000);
@@ -233,11 +229,9 @@ $(document).ready(function() {
 
 function UpdateClickCounter(id, amount) {
 
-    for(key in clickCounter){ // Iterates our object that keep track of the users points.
-        if(key === id){ 
+    for(key in clickCounter) // Iterates our object that keep track of the users points.
+        if(key === id)
             clickCounter[key]+=amount;
-        }
-    }
 
     turnCounter = turnCounter*(-1);
     fieldCounter++; 

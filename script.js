@@ -241,16 +241,8 @@ function UpdateClickCounter(id, amount) {
 
 /*Thank you!
 Writen by: Paulo Henrique F. do Amaral
-General Assembly Software Engineering Student
+FixedAcademy of IT - Bachelor of IT student
 Sydney, NSW, Australia
-Sep, 2019.
-
-Special thanks to the instructors:
-
-Aaron Cox,
-Yianni Moustakas,
-Fede Lopez.
-
-For all your help and patience 
+Oct, 2020.
 
 Cheers.*/

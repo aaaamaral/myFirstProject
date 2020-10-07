@@ -8,10 +8,6 @@ icon to play.
 
 ---------------------------------------------------  
 
-
-
----------------------------------------------------  
-
 Special features:  
 - Choose different icons to make your playing  
   experience even more fun and customized.

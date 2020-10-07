@@ -142,7 +142,7 @@ $(document).ready(function() {
  
         $(".play").show(500);
         $(".charPick").hide(500);
-        event.preventDefault();
+        preventDefault();
         $("html, body").animate({scrollTop: 115}, 1000);
 
     });

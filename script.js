@@ -103,11 +103,9 @@ function roundDisplay(){
 
     let roundMessages = ['1st Round', '2nd round', '3rd round']
 
-    for (message in roundMessages){
-        if( message == roundCounter){
+    for (message in roundMessages)
+        if( message == roundCounter)
             $("#round").text(roundMessages[message]).fadeIn();
-        };
-    }
 
 }//Based on the round counter, a message is displayed on screen as a round counter.
 
